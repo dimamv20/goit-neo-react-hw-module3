@@ -1,0 +1,79 @@
+#root {
+  max-width: 350px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.search input{
+  width: 330px;
+}
+
+.search p{
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+h1 {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  margin: 20px 0;
+}
+
+
+.contact {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact-info img {
+  width: 24px;
+  height: 24px;
+}
+
+.contact-info p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.list{
+  padding: 0;
+
+  list-style: none;
+  width: 340px;
+}
+
+.field{
+  border-radius: 5px;
+  height: 20px;
+}
+
+.form{
+  width: 300px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.submit{
+  margin: 0 auto;
+
+}
