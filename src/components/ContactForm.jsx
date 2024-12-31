@@ -6,8 +6,8 @@ const ContactForm = ({ onAddContact }) => {
     <Formik
       initialValues={{ name: '', number: '' }}
       onSubmit={(values, { resetForm }) => {
-        onAddContact(values); // Викликаємо функцію додавання
-        resetForm(); // Скидаємо форму
+        onAddContact(values); 
+        resetForm(); 
       }}
     >
       <Form className="form">
